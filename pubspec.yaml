@@ -1,0 +1,47 @@
+name: wedding_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  country_code_picker: ^3.0.0
+  get: 4.6.6
+  image_picker: 1.0.4
+  http:
+  dio: ^5.3.3
+  get_storage:
+  video_player: ^2.7.2
+  chewie: ^1.7.1
+  connectivity_plus: ^4.0.2
+  auto_size_text: 3.0.0
+  flutter_launcher_icons: 0.13.1
+  glassmorphism: 3.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/img/
+    - assets/icons/
+    - assets/icons/settings/
+    - assets/test_images/
+  fonts: 
+    - family: InterMedium
+      fonts: 
+        - asset: assets/fonts/Inter-Medium.ttf
+    - family: InterRegular
+      fonts: 
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: InterSemiBold
+      fonts: 
+        - asset: assets/fonts/Inter-SemiBold.ttf
+  uses-material-design: true
+
